@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+}
+.main__list{
+    list-style-type: none;
+}
+.main__link{
+
+    text-decoration: none;
+    color:black;
+}
+.main__list_elem{
+    margin: 7px;
+}
+.mainpage__adding_form{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.butn{
+    margin: 10px;
+}
+.project_list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project_list__element{
+    width:200px;
+    height: 200px;
+
+}
+.project_list__element_donate{
+    width: 400px;
+    height: 300px;
+}
+.error_message{
+    text-align: center;
+    margin: 40px;
+}
